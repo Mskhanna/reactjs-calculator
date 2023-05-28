@@ -26,3 +26,5 @@ This app is a simple calculator that allows users to perform basic arithmetic op
 - **Intl.NumberFormat**: The Intl.NumberFormat object is used for formatting the operands to display them in a user-friendly format.
 
 - **JSX**: The app's user interface is defined using JSX, which is a syntax extension for JavaScript that allows writing HTML-like code within JavaScript files.
+
+View the app here: https://mskhanna.github.io/reactjs-calculator/
