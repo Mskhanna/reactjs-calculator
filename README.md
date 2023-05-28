@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+## Description
+This app is a simple calculator that allows users to perform basic arithmetic operations. It provides a user interface with buttons for digits, operations, and functionalities like clear, delete, and evaluate. The calculator displays the previous and current operands along with the chosen operation.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Functionalities
 
-## Available Scripts
+- **Adding a digit**: Users can input digits by clicking on the corresponding buttons. The digits are displayed as the current operand.
 
-In the project directory, you can run:
+- **Choosing an operation**: Users can select an arithmetic operation (+, -, *, ÷) by clicking on the respective buttons. The chosen operation is displayed between the previous and current operands.
 
-### `npm start`
+- **Clearing**: Clicking on the "AC" button clears the calculator's state, resetting all operands and the chosen operation.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **Deleting a digit**: Clicking on the "DEL" button removes the last digit from the current operand.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- **Evaluating**: Clicking on the "=" button performs the arithmetic operation on the previous and current operands, based on the chosen operation. The result is displayed as the current operand, and the previous operand, operation, and current operand are cleared for the next calculation.
 
-### `npm test`
+## Technologies used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **React**: The app is built using React, a JavaScript library for building user interfaces.
 
-### `npm run build`
+- **React Hooks**: The useReducer hook is used to manage the state of the calculator and handle user actions.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **JavaScript**: The app's logic is written in JavaScript, including the reducer function that updates the state based on the dispatched actions.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **CSS**: The app's styles are defined using CSS, with the styles defined in an external stylesheet (styles.css).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Intl.NumberFormat**: The Intl.NumberFormat object is used for formatting the operands to display them in a user-friendly format.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **JSX**: The app's user interface is defined using JSX, which is a syntax extension for JavaScript that allows writing HTML-like code within JavaScript files.
