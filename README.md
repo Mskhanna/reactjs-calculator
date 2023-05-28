@@ -1,4 +1,6 @@
-## Description
+
+
+# Calculator using ReactJS
 This app is a simple calculator that allows users to perform basic arithmetic operations. It provides a user interface with buttons for digits, operations, and functionalities like clear, delete, and evaluate. The calculator displays the previous and current operands along with the chosen operation.
 
 ## Functionalities
